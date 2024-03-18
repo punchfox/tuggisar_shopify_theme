@@ -102,10 +102,22 @@
             "collection": "dentotugg"
           }
         },
+        "featured_collection_6krk9T": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hundpinnar"
+          }
+        },
         "featured_collection_RjJMjg": {
           "type": "featured_collection",
           "settings": {
             "collection": "snittar-och-bitar"
+          }
+        },
+        "featured_collection_n68fH4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hund-protein-bar"
           }
         },
         "featured_collection_kM8Xht": {
@@ -125,23 +137,18 @@
           "settings": {
             "collection": "tuggben"
           }
-        },
-        "featured_collection_n68fH4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hund-protein-bar"
-          }
         }
       },
       "block_order": [
         "featured_collection_yCLrXN",
         "featured_collection_DHANAr",
         "featured_collection_E68TLf",
+        "featured_collection_6krk9T",
         "featured_collection_RjJMjg",
+        "featured_collection_n68fH4",
         "featured_collection_kM8Xht",
         "featured_collection_Y9MYAM",
-        "featured_collection_bkTbbQ",
-        "featured_collection_n68fH4"
+        "featured_collection_bkTbbQ"
       ],
       "settings": {
         "title": "Collections",
