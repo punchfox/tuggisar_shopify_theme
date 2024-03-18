@@ -108,6 +108,12 @@
             "collection": "snittar-och-bitar"
           }
         },
+        "featured_collection_kM8Xht": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tuggring"
+          }
+        },
         "featured_collection_Y9MYAM": {
           "type": "featured_collection",
           "settings": {
@@ -120,10 +126,10 @@
             "collection": "tuggben"
           }
         },
-        "featured_collection_kM8Xht": {
+        "featured_collection_n68fH4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tuggring"
+            "collection": "hund-protein-bar"
           }
         }
       },
@@ -132,9 +138,10 @@
         "featured_collection_DHANAr",
         "featured_collection_E68TLf",
         "featured_collection_RjJMjg",
+        "featured_collection_kM8Xht",
         "featured_collection_Y9MYAM",
         "featured_collection_bkTbbQ",
-        "featured_collection_kM8Xht"
+        "featured_collection_n68fH4"
       ],
       "settings": {
         "title": "Collections",
