@@ -242,22 +242,22 @@
             "collection": "snittar-och-bitar"
           }
         },
-        "featured_collection_E68TLf": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dentotugg"
-          }
-        },
         "featured_collection_6krk9T": {
           "type": "featured_collection",
           "settings": {
-            "collection": "hundpinnar"
+            "collection": "tuggsticks"
           }
         },
         "featured_collection_n68fH4": {
           "type": "featured_collection",
           "settings": {
             "collection": "hund-protein-bar"
+          }
+        },
+        "featured_collection_E68TLf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dentotugg"
           }
         },
         "featured_collection_kM8Xht": {
@@ -272,16 +272,16 @@
             "collection": "tuggrulle"
           }
         },
-        "featured_collection_bkTbbQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tuggben"
-          }
-        },
         "featured_collection_9prrUV": {
           "type": "featured_collection",
           "settings": {
             "collection": "hundgodis"
+          }
+        },
+        "featured_collection_bkTbbQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tuggben"
           }
         },
         "featured_collection_nrAgtB": {
@@ -324,13 +324,13 @@
         "featured_collection_yCLrXN",
         "featured_collection_DHANAr",
         "featured_collection_RjJMjg",
-        "featured_collection_E68TLf",
         "featured_collection_6krk9T",
         "featured_collection_n68fH4",
+        "featured_collection_E68TLf",
         "featured_collection_kM8Xht",
         "featured_collection_Y9MYAM",
-        "featured_collection_bkTbbQ",
         "featured_collection_9prrUV",
+        "featured_collection_bkTbbQ",
         "featured_collection_nrAgtB",
         "featured_collection_LM9LR7",
         "featured_collection_hT83ka",
