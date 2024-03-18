@@ -11,10 +11,10 @@
       "type": "contact-form",
       "settings": {
         "heading": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     }
   },
