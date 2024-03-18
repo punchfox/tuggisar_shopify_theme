@@ -90,6 +90,12 @@
             "collection": "valp"
           }
         },
+        "featured_collection_DHANAr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hundkex"
+          }
+        },
         "featured_collection_E68TLf": {
           "type": "featured_collection",
           "settings": {
@@ -114,20 +120,21 @@
             "collection": "tuggben"
           }
         },
-        "featured_collection_DHANAr": {
+        "featured_collection_kM8Xht": {
           "type": "featured_collection",
           "settings": {
-            "collection": "hundkex"
+            "collection": "tuggring"
           }
         }
       },
       "block_order": [
         "featured_collection_yCLrXN",
+        "featured_collection_DHANAr",
         "featured_collection_E68TLf",
         "featured_collection_RjJMjg",
         "featured_collection_Y9MYAM",
         "featured_collection_bkTbbQ",
-        "featured_collection_DHANAr"
+        "featured_collection_kM8Xht"
       ],
       "settings": {
         "title": "Collections",
