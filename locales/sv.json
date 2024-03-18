@@ -153,7 +153,7 @@
         "image_available": "Bilden {{ index }} är nu tillgänglig i gallerivisning"
       },
       "view_full_details": "Visa alla uppgifter",
-      "include_taxes": "Skatt ingår.",
+      "include_taxes": "inklusive moms",
       "shipping_policy_html": "<a href=\"{{ link }}\">Frakt<\/a> beräknas i kassan.",
       "choose_options": "Välj alternativ",
       "choose_product_options": "Välj alternativ för {{ product_name }}",
