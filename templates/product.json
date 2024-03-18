@@ -46,7 +46,7 @@
             "color_text_body": "#6D7175",
             "dividers_color": "#8F8D8D",
             "bacgkround_color": "#FFFFFF",
-            "border_thickness": 1,
+            "border_thickness": 0,
             "border_radius": 0,
             "supporting_text_title": "Purchase options",
             "subscription_policy_url": "",
