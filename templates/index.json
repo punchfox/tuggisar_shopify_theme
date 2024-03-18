@@ -158,6 +158,12 @@
     "collage": {
       "type": "collage",
       "blocks": {
+        "collection_6WM8QK": {
+          "type": "collection",
+          "settings": {
+            "collection": "losvikt"
+          }
+        },
         "collection-0": {
           "type": "collection",
           "settings": {
@@ -169,19 +175,12 @@
           "settings": {
             "collection": "hundtillbehor"
           }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "ekologiska-kex-5kg",
-            "second_image": true
-          }
         }
       },
       "block_order": [
+        "collection_6WM8QK",
         "collection-0",
-        "collection-1",
-        "product"
+        "collection-1"
       ],
       "settings": {
         "heading": "",
