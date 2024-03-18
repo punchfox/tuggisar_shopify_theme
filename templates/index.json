@@ -93,8 +93,8 @@
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false
+            "product": "ekologiska-kex-5kg",
+            "second_image": true
           }
         },
         "collection-1": {
@@ -109,7 +109,6 @@
         "product",
         "collection-1"
       ],
-      "disabled": true,
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
