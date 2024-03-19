@@ -159,10 +159,16 @@
             "collection": "fagel"
           }
         },
-        "featured_collection_YwHQRd": {
+        "featured_collection_Piia6t": {
           "type": "featured_collection",
           "settings": {
-            "collection": "fisk"
+            "collection": "griskott"
+          }
+        },
+        "featured_collection_dngfRb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "oxkott"
           }
         },
         "featured_collection_C69Jie": {
@@ -171,10 +177,10 @@
             "collection": "lamm"
           }
         },
-        "featured_collection_dngfRb": {
+        "featured_collection_YwHQRd": {
           "type": "featured_collection",
           "settings": {
-            "collection": "oxkott"
+            "collection": "fisk"
           }
         },
         "featured_collection_EfrcxM": {
@@ -198,9 +204,10 @@
       },
       "block_order": [
         "featured_collection_7amQHb",
-        "featured_collection_YwHQRd",
-        "featured_collection_C69Jie",
+        "featured_collection_Piia6t",
         "featured_collection_dngfRb",
+        "featured_collection_C69Jie",
+        "featured_collection_YwHQRd",
         "featured_collection_EfrcxM",
         "featured_collection_HYxw7b",
         "featured_collection_pTtfHF"
