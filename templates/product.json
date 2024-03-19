@@ -48,7 +48,7 @@
             "bacgkround_color": "#ffffff",
             "border_thickness": 0,
             "border_radius": 0,
-            "supporting_text_title": "Purchase options",
+            "supporting_text_title": "",
             "subscription_policy_url": "https:\/\/tuggisar.se\/pages\/prenumerationer",
             "product": "{{product}}"
           }
