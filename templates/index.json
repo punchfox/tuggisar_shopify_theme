@@ -232,7 +232,7 @@
         "collection_6WM8QK": {
           "type": "collection",
           "settings": {
-            "collection": "losvikt"
+            "collection": "hundsnacks-1"
           }
         },
         "collection-0": {
@@ -253,7 +253,6 @@
         "collection-0",
         "collection-1"
       ],
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
