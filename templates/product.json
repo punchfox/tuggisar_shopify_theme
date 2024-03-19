@@ -34,11 +34,6 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "subscriptions_app_block_yhWWmc": {
           "type": "shopify:\/\/apps\/subscriptions\/blocks\/app-block\/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
           "settings": {
@@ -51,6 +46,11 @@
             "supporting_text_title": "Purchase options",
             "subscription_policy_url": "",
             "product": "{{product}}"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
           }
         },
         "buy_buttons": {
@@ -119,8 +119,8 @@
         "caption",
         "price",
         "variant_picker",
-        "quantity_selector",
         "subscriptions_app_block_yhWWmc",
+        "quantity_selector",
         "buy_buttons",
         "description",
         "collapsible-row-0",
