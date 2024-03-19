@@ -49,7 +49,7 @@
             "border_thickness": 0,
             "border_radius": 0,
             "supporting_text_title": "Purchase options",
-            "subscription_policy_url": "",
+            "subscription_policy_url": "https:\/\/tuggisar.se\/pages\/prenumerationer",
             "product": "{{product}}"
           }
         },
