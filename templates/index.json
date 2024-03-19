@@ -153,6 +153,18 @@
     "collection_list_ccQCRX": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_7amQHb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fagel"
+          }
+        },
+        "featured_collection_YwHQRd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fisk"
+          }
+        },
         "featured_collection_EfrcxM": {
           "type": "featured_collection",
           "settings": {
@@ -170,26 +182,14 @@
           "settings": {
             "collection": "glutenfri"
           }
-        },
-        "featured_collection_YwHQRd": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fisk"
-          }
-        },
-        "featured_collection_7amQHb": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "fagel"
-          }
         }
       },
       "block_order": [
+        "featured_collection_7amQHb",
+        "featured_collection_YwHQRd",
         "featured_collection_EfrcxM",
         "featured_collection_HYxw7b",
-        "featured_collection_pTtfHF",
-        "featured_collection_YwHQRd",
-        "featured_collection_7amQHb"
+        "featured_collection_pTtfHF"
       ],
       "settings": {
         "title": "",
