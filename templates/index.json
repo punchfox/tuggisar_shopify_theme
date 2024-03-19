@@ -116,31 +116,80 @@
             "collection": "ugnsbakad"
           }
         },
-        "featured_collection_aQHnqk": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "glutenfri"
-          }
-        },
-        "featured_collection_yee6w9": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "vegetarisk"
-          }
-        },
         "featured_collection_wgjqmb": {
           "type": "featured_collection",
           "settings": {
             "collection": "natural-chew"
+          }
+        },
+        "featured_collection_UwfwWM": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
           }
         }
       },
       "block_order": [
         "featured_collection_n3rqtp",
         "featured_collection_fgHVie",
-        "featured_collection_aQHnqk",
-        "featured_collection_yee6w9",
-        "featured_collection_wgjqmb"
+        "featured_collection_wgjqmb",
+        "featured_collection_UwfwWM"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "collection_list_ccQCRX": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_EfrcxM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "insektsprotein"
+          }
+        },
+        "featured_collection_HYxw7b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vegetarisk"
+          }
+        },
+        "featured_collection_pTtfHF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "glutenfri"
+          }
+        },
+        "featured_collection_YwHQRd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fisk"
+          }
+        },
+        "featured_collection_7amQHb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_EfrcxM",
+        "featured_collection_HYxw7b",
+        "featured_collection_pTtfHF",
+        "featured_collection_YwHQRd",
+        "featured_collection_7amQHb"
       ],
       "settings": {
         "title": "",
@@ -365,47 +414,6 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_ccQCRX": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_EfrcxM": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_HYxw7b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_pTtfHF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_EfrcxM",
-        "featured_collection_HYxw7b",
-        "featured_collection_pTtfHF"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 8,
-        "padding_bottom": 8
-      }
-    },
     "image_banner_Lfzxjy": {
       "type": "image-banner",
       "settings": {
@@ -428,11 +436,11 @@
     "rich_text",
     "multicolumn",
     "collection_list_rWJeTD",
+    "collection_list_ccQCRX",
     "collage",
     "featured_collection",
     "collection_list_m9nELB",
     "video",
-    "collection_list_ccQCRX",
     "image_banner_Lfzxjy"
   ]
 }
