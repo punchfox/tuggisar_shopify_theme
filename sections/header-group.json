@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "<strong>15% rabatt<\/strong> med koden <strong>NYKUND<\/strong>",
+            "text": "15% rabatt med koden NYKUND",
             "link": ""
           }
         }
@@ -16,7 +16,6 @@
       "block_order": [
         "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_line_separator": true,
