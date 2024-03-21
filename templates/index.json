@@ -184,6 +184,12 @@
             "collection": "fisk"
           }
         },
+        "featured_collection_XwnnLw": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jakt"
+          }
+        },
         "featured_collection_EfrcxM": {
           "type": "featured_collection",
           "settings": {
@@ -207,12 +213,6 @@
           "settings": {
             "collection": "allergiska-hundar"
           }
-        },
-        "featured_collection_hCj3zm": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "jakt"
-          }
         }
       },
       "block_order": [
@@ -221,11 +221,11 @@
         "featured_collection_dngfRb",
         "featured_collection_C69Jie",
         "featured_collection_YwHQRd",
+        "featured_collection_XwnnLw",
         "featured_collection_EfrcxM",
         "featured_collection_HYxw7b",
         "featured_collection_pTtfHF",
-        "featured_collection_TxT4QC",
-        "featured_collection_hCj3zm"
+        "featured_collection_TxT4QC"
       ],
       "disabled": true,
       "settings": {
