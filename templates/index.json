@@ -207,6 +207,12 @@
           "settings": {
             "collection": "allergiska-hundar"
           }
+        },
+        "featured_collection_hCj3zm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jakt"
+          }
         }
       },
       "block_order": [
@@ -218,7 +224,8 @@
         "featured_collection_EfrcxM",
         "featured_collection_HYxw7b",
         "featured_collection_pTtfHF",
-        "featured_collection_TxT4QC"
+        "featured_collection_TxT4QC",
+        "featured_collection_hCj3zm"
       ],
       "disabled": true,
       "settings": {
