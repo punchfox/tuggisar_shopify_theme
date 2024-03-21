@@ -201,6 +201,12 @@
           "settings": {
             "collection": "glutenfri"
           }
+        },
+        "featured_collection_TxT4QC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "allergiska-hundar"
+          }
         }
       },
       "block_order": [
@@ -211,7 +217,8 @@
         "featured_collection_YwHQRd",
         "featured_collection_EfrcxM",
         "featured_collection_HYxw7b",
-        "featured_collection_pTtfHF"
+        "featured_collection_pTtfHF",
+        "featured_collection_TxT4QC"
       ],
       "disabled": true,
       "settings": {
