@@ -2,6 +2,7 @@
   "sections": {
     "image_banner_3iGe44": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-lie-18956757.jpg",
         "image_overlay_opacity": 0,
