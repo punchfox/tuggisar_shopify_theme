@@ -8,6 +8,47 @@
         "color_scheme": "scheme-1"
       }
     },
+    "collection_list_za9jLc": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_CNhGDr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_N9MHQE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_tX7bNE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_CNhGDr",
+        "featured_collection_N9MHQE",
+        "featured_collection_tX7bNE"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -27,10 +68,38 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "171130020298340525": {
+      "type": "apps",
+      "blocks": {
+        "collabs_application_page_aUxpV6": {
+          "type": "shopify:\/\/apps\/collabs\/blocks\/application-page\/54758706-9f25-4fa9-a553-64720a4c998b",
+          "settings": {
+            "heading": "Affiliate programme",
+            "show_square_logo": false,
+            "show_partnership_info": false,
+            "button_text": "Apply now",
+            "number_of_images": "1",
+            "logo_position": "below",
+            "corner_style": "square",
+            "button_background_color": "#000000",
+            "button_label_color": "#ffffff",
+            "link_color": "#2c6ecb"
+          }
+        }
+      },
+      "block_order": [
+        "collabs_application_page_aUxpV6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "collection_list_za9jLc",
+    "product-grid",
+    "171130020298340525"
   ]
 }
