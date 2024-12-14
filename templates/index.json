@@ -283,7 +283,7 @@
         "desktop_layout": "right",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "padding_top": 20,
         "padding_bottom": 20
       }
