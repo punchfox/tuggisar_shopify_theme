@@ -250,6 +250,46 @@
         "padding_bottom": 8
       }
     },
+    "collection_list_a8AhMe": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_PgwzTj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hundleksaker"
+          }
+        },
+        "featured_collection_RnFLnD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hundtillbehor"
+          }
+        },
+        "featured_collection_NhqFxA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hundsnacks-1"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_PgwzTj",
+        "featured_collection_RnFLnD",
+        "featured_collection_NhqFxA"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -277,6 +317,7 @@
         "collection-1",
         "collection_6WM8QK"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -478,6 +519,7 @@
     "multicolumn",
     "collection_list_rWJeTD",
     "collection_list_ccQCRX",
+    "collection_list_a8AhMe",
     "collage",
     "featured_collection_iXiLyA",
     "featured_collection",
