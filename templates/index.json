@@ -329,7 +329,7 @@
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "solid",
+        "view_all_style": "link",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
@@ -456,6 +456,7 @@
     },
     "image_banner_Lfzxjy": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/pexels-helena-lopes-3215610.jpg",
         "image_overlay_opacity": 0,
