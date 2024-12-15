@@ -421,5 +421,12 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".copyright__content + .copyright__content {display: none;}",
+      ".locale-selectors__container {display: none;}",
+      ".link,.header-localization .disclosure .localization-form__select {font-size: 1.8rem;}"
+    ]
   }
 }
