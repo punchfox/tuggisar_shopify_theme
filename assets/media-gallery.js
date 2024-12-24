@@ -29,18 +29,25 @@ if (!customElements.get('media-gallery')) {
       }
 
       setActiveMedia(mediaId, prepend) {
-        const activeMedia = this.elements.viewer.querySelector(`[data-media-id="${mediaId}"]`);
+        const activeMedia =
+          this.elements.viewer.querySelector(`[data-media-id="${mediaId}"]`) ||
+          this.elements.viewer.querySelector('[data-media-id]');
+        if (!activeMedia) {
+          return;
+        }
         this.elements.viewer.querySelectorAll('[data-media-id]').forEach((element) => {
           element.classList.remove('is-active');
         });
-        activeMedia.classList.add('is-active');
+        activeMedia?.classList?.add('is-active');
 
         if (prepend) {
-          activeMedia.parentElement.prepend(activeMedia);
+          activeMedia.parentElement.firstChild !== activeMedia && activeMedia.parentElement.prepend(activeMedia);
+
           if (this.elements.thumbnails) {
             const activeThumbnail = this.elements.thumbnails.querySelector(`[data-target="${mediaId}"]`);
-            activeThumbnail.parentElement.prepend(activeThumbnail);
+            activeThumbnail.parentElement.firstChild !== activeThumbnail && activeThumbnail.parentElement.prepend(activeThumbnail);
           }
+
           if (this.elements.viewer.slider) this.elements.viewer.resetPages();
         }
 

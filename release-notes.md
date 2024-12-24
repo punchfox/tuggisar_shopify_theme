@@ -1,10 +1,8 @@
-Dawn 13.0.1 introduces a few fixes.
+Dawn 15.2.0 provides a few fixes for known bugs and updates the styling for the new dynamic checkout buttons.
 ### Changed
-- The cart drawer header (Product, Total) is not sticky anymore when the content is scrollable
+- Adjust the local selector dropdown to match the maximum width of its content.
+- Adjust the styling for dynamic checkout buttons now that they’re using a new HTML structure.
 ### Fixes and improvements
-- Fix product rating alignment when the product doesn't have a media
-- Fix scroll issue on variant change
-- Limit width of country selector when the currency is the same for all the countries
-- Fix missing alt tags for the collection image on the collection page as well as for collection cards
-- Fix cart drawer's cart note to prevent overlapping of the text and caret icon
-- Fix cart drawer's header to prevent an overlap with the items in the cart
+- Fix issue where while in the theme editor, a modal wouldn’t be cleared once the section it belonged to was removed.
+- Updated the account login link to use a nofollow attribute so that google doesn’t interpret it as spammy backlinking.
+- Fix issue where the svg icon for the filters were not clickable

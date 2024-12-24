@@ -116,14 +116,14 @@
                 class="reset__button field__button{% if search.terms == blank %} hidden{% endif %}"
                 aria-label="{{ 'general.search.reset' | t }}"
               >
-                <svg class="icon icon-close" aria-hidden="true" focusable="false">
-                  <use xlink:href="#icon-reset">
-                </svg>
+                <span class="svg-wrapper">
+                  {{- 'icon-reset.svg' | inline_asset_content -}}
+                </span>
               </button>
               <button type="submit" class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
-                <svg class="icon icon-search" aria-hidden="true" focusable="false">
-                  <use xlink:href="#icon-search">
-                </svg>
+                <span class="svg-wrapper">
+                  {{- 'icon-search.svg' | inline_asset_content -}}
+                </span>
               </button>
             </div>
           </form>
@@ -176,7 +176,9 @@
                       </option>
                     {%- endfor -%}
                   </select>
-                  {% render 'icon-caret' %}
+                  <span class="svg-wrapper">
+                    {{- 'icon-caret.svg' | inline_asset_content -}}
+                  </span>
                 </div>
               </div>
             </div>
@@ -254,6 +256,7 @@
                 class="grid product-grid  grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
                 role="list"
               >
+                {%- assign skip_card_product_styles = false -%}
                 {%- for item in search.results -%}
                   {% assign lazy_load = false %}
                   {%- if forloop.index > 2 -%}
@@ -276,8 +279,10 @@
                           show_secondary_image: section.settings.show_secondary_image,
                           show_vendor: section.settings.show_vendor,
                           show_rating: section.settings.show_rating,
-                          lazy_load: lazy_load
+                          lazy_load: lazy_load,
+                          skip_styles: skip_card_product_styles
                         %}
+                        {%- assign skip_card_product_styles = true -%}
                       {%- when 'article' -%}
                         {% render 'article-card',
                           article: item,
@@ -325,7 +330,7 @@
   </div>
 {% endpaginate %}
 {% if section.settings.image_shape == 'arch' %}
-  {% render 'mask-arch' %}
+  {{ 'mask-arch.svg' | inline_asset_content }}
 {%- endif -%}
 
 {% schema %}
@@ -338,7 +343,7 @@
       "type": "range",
       "id": "columns_desktop",
       "min": 1,
-      "max": 5,
+      "max": 6,
       "step": 1,
       "default": 4,
       "label": "t:sections.main-search.settings.columns_desktop.label"

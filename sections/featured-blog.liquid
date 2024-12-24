@@ -146,7 +146,9 @@
             name="previous"
             aria-label="{{ 'general.slider.previous_slide' | t }}"
           >
-            {% render 'icon-caret' %}
+            <span class="svg-wrapper">
+              {{- 'icon-caret.svg' | inline_asset_content -}}
+            </span>
           </button>
           <div class="slider-counter caption">
             <span class="slider-counter--current">1</span>
@@ -160,7 +162,9 @@
             name="next"
             aria-label="{{ 'general.slider.next_slide' | t }}"
           >
-            {% render 'icon-caret' %}
+            <span class="svg-wrapper">
+              {{- 'icon-caret.svg' | inline_asset_content -}}
+            </span>
           </button>
         </div>
       {%- endif -%}
@@ -197,7 +201,7 @@
     {
       "type": "inline_richtext",
       "id": "heading",
-      "default": "Blog posts",
+      "default": "t:sections.featured-blog.settings.heading.default",
       "label": "t:sections.featured-blog.settings.heading.label"
     },
     {
@@ -215,6 +219,14 @@
         {
           "value": "h0",
           "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
         }
       ],
       "default": "h1",

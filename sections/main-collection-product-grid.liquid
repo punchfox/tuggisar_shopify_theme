@@ -6,10 +6,20 @@
   {{ 'mask-blobs.css' | asset_url | stylesheet_tag }}
 {%- endif -%}
 
-{%- if section.settings.enable_quick_add -%}
+{%- unless section.settings.quick_add == 'none' -%}
   {{ 'quick-add.css' | asset_url | stylesheet_tag }}
+{%- endunless -%}
+
+{%- if section.settings.quick_add == 'standard' -%}
   <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
+{%- if section.settings.quick_add == 'bulk' -%}
+  <script src="{{ 'quick-add-bulk.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'quantity-popover.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'quick-order-list.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
 {%- style -%}
@@ -56,7 +66,9 @@
                     </option>
                   {%- endfor -%}
                 </select>
-                {% render 'icon-caret' %}
+                <span class="svg-wrapper">
+                  {{- 'icon-caret.svg' | inline_asset_content -}}
+                </span>
               </div>
             </div>
           </div>
@@ -127,7 +139,9 @@
             </div>
           </div>
         {%- else -%}
-          <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
+          <div
+            class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}"
+          >
             <div class="loading-overlay gradient"></div>
             <ul
               id="product-grid"
@@ -135,8 +149,10 @@
               class="
                 grid product-grid grid--{{ section.settings.columns_mobile }}-col-tablet-down
                 grid--{{ section.settings.columns_desktop }}-col-desktop
+                {% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %}
               "
             >
+              {% assign skip_card_product_styles = false %}
               {%- for product in collection.products -%}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
@@ -157,10 +173,12 @@
                     show_vendor: section.settings.show_vendor,
                     show_rating: section.settings.show_rating,
                     lazy_load: lazy_load,
-                    show_quick_add: section.settings.enable_quick_add,
+                    skip_styles: skip_card_product_styles,
+                    quick_add: section.settings.quick_add,
                     section_id: section.id
                   %}
                 </li>
+                {%- assign skip_card_product_styles = true -%}
               {%- endfor -%}
             </ul>
 
@@ -173,7 +191,7 @@
     </div>
   {%- endpaginate -%}
   {% if section.settings.image_shape == 'arch' %}
-    {% render 'mask-arch' %}
+    {{ 'mask-arch.svg' | inline_asset_content }}
   {%- endif -%}
 </div>
 
@@ -186,7 +204,7 @@
       "type": "range",
       "id": "products_per_page",
       "min": 8,
-      "max": 24,
+      "max": 36,
       "step": 4,
       "default": 16,
       "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
@@ -195,7 +213,7 @@
       "type": "range",
       "id": "columns_desktop",
       "min": 1,
-      "max": 5,
+      "max": 6,
       "step": 1,
       "default": 4,
       "label": "t:sections.main-collection-product-grid.settings.columns_desktop.label"
@@ -292,10 +310,25 @@
       "info": "t:sections.main-collection-product-grid.settings.show_rating.info"
     },
     {
-      "type": "checkbox",
-      "id": "enable_quick_add",
-      "default": false,
-      "label": "t:sections.main-collection-product-grid.settings.enable_quick_buy.label"
+      "type": "select",
+      "id": "quick_add",
+      "default": "none",
+      "label": "t:sections.main-collection-product-grid.settings.quick_add.label",
+      "info": "t:sections.main-collection-product-grid.settings.quick_add.info",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:sections.main-collection-product-grid.settings.quick_add.options.option_1"
+        },
+        {
+          "value": "standard",
+          "label": "t:sections.main-collection-product-grid.settings.quick_add.options.option_2"
+        },
+        {
+          "value": "bulk",
+          "label": "t:sections.main-collection-product-grid.settings.quick_add.options.option_3"
+        }
+      ]
     },
     {
       "type": "header",
