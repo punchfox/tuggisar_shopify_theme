@@ -21,7 +21,8 @@
     "image_banner_BfchDd": {
       "type": "image-banner",
       "custom_css": [
-        ".banner__media {left: calc((100% - var(--page-width)) / 2); max-width: var(--page-width); margin: 0 auto;}"
+        ".banner__media {left: calc((100% - var(--page-width)) / 2); max-width: var(--page-width); margin: 0 auto;}",
+        "@media screen and (max-width: 749px) {.banner {display: none; }}"
       ],
       "name": "Spawday banner",
       "settings": {
