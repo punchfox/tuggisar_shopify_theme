@@ -12,6 +12,12 @@
     "collection_list_a8AhMe": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_AJzTfN": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "spawday"
+          }
+        },
         "featured_collection_PgwzTj": {
           "type": "featured_collection",
           "settings": {
@@ -32,6 +38,7 @@
         }
       },
       "block_order": [
+        "featured_collection_AJzTfN",
         "featured_collection_PgwzTj",
         "featured_collection_RnFLnD",
         "featured_collection_NhqFxA"
@@ -40,10 +47,10 @@
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
@@ -70,7 +77,7 @@
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": false,
-        "enable_quick_add": false,
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 12,
