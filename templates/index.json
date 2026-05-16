@@ -12,6 +12,12 @@
     "collection_list_a8AhMe": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_MARHHT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "glufs"
+          }
+        },
         "featured_collection_AJzTfN": {
           "type": "featured_collection",
           "settings": {
@@ -38,6 +44,7 @@
         }
       },
       "block_order": [
+        "featured_collection_MARHHT",
         "featured_collection_AJzTfN",
         "featured_collection_PgwzTj",
         "featured_collection_RnFLnD",
@@ -47,7 +54,7 @@
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
