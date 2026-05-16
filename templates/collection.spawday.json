@@ -11,10 +11,31 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
+      }
+    },
+    "image_banner_BfchDd": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner__media {left: calc((100% - var(--page-width)) / 2); max-width: var(--page-width); margin: 0 auto;}"
+      ],
+      "name": "Spawday banner",
+      "settings": {
+        "image": "shopify://shop_images/spawday-banner.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
       }
     },
     "collection_list_za9jLc": {
@@ -69,6 +90,7 @@
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": false,
+        "quick_add": "none",
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
@@ -107,6 +129,7 @@
   },
   "order": [
     "banner",
+    "image_banner_BfchDd",
     "collection_list_za9jLc",
     "product-grid",
     "171130020298340525"
