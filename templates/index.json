@@ -12,16 +12,10 @@
     "collection_list_a8AhMe": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_MARHHT": {
+        "featured_collection_NhqFxA": {
           "type": "featured_collection",
           "settings": {
-            "collection": "glufs"
-          }
-        },
-        "featured_collection_AJzTfN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "spawday"
+            "collection": "hundgodis"
           }
         },
         "featured_collection_PgwzTj": {
@@ -36,19 +30,18 @@
             "collection": "hundtillbehor"
           }
         },
-        "featured_collection_NhqFxA": {
+        "featured_collection_MARHHT": {
           "type": "featured_collection",
           "settings": {
-            "collection": "hundgodis"
+            "collection": "glufs"
           }
         }
       },
       "block_order": [
-        "featured_collection_MARHHT",
-        "featured_collection_AJzTfN",
+        "featured_collection_NhqFxA",
         "featured_collection_PgwzTj",
         "featured_collection_RnFLnD",
-        "featured_collection_NhqFxA"
+        "featured_collection_MARHHT"
       ],
       "settings": {
         "title": "",
