@@ -32,6 +32,7 @@
         },
         "featured_collection_MARHHT": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "glufs"
           }
@@ -54,34 +55,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "featured_collection_iXiLyA": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "frontpage-1",
-        "products_to_show": 24,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 12,
-        "padding_bottom": 12
       }
     },
     "featured_collection_banfV6": {
@@ -112,11 +85,39 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "featured_collection_iXiLyA": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage-1",
+        "products_to_show": 24,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
     "collection_list_a8AhMe",
-    "featured_collection_iXiLyA",
-    "featured_collection_banfV6"
+    "featured_collection_banfV6",
+    "featured_collection_iXiLyA"
   ]
 }
