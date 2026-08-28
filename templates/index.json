@@ -86,6 +86,35 @@
         "padding_bottom": 12
       }
     },
+    "featured_collection_AxqdnW": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "kerotugg-naturliga-hundtugg",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "bulk",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "featured_collection_iXiLyA": {
       "type": "featured-collection",
       "settings": {
@@ -142,42 +171,13 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
-    },
-    "featured_collection_AxqdnW": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "kerotugg-naturliga-hundtugg",
-        "products_to_show": 25,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "bulk",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
     }
   },
   "order": [
     "collection_list_a8AhMe",
     "featured_collection_banfV6",
+    "featured_collection_AxqdnW",
     "featured_collection_iXiLyA",
-    "featured_collection_qC9XVt",
-    "featured_collection_AxqdnW"
+    "featured_collection_qC9XVt"
   ]
 }
