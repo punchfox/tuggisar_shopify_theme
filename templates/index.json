@@ -94,7 +94,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "frontpage-1",
+        "collection": "antos",
         "products_to_show": 24,
         "columns_desktop": 4,
         "full_width": false,
